@@ -4,3 +4,5 @@ Product owner: Fredy Ordoñez Perez
 
 Analista: Cristian Alejandro Montaña
 
+Scrum master: Luis Eduardo Bautista Reyes
+
