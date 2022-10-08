@@ -2,3 +2,5 @@ Administrador de BD: Cristian Santiago Triana Larrota
 
 Product owner: Fredy Ordoñez Perez
 
+Desarrollador: Maira Diaz
+
