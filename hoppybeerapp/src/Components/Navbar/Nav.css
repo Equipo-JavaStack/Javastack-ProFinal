@@ -1,0 +1,18 @@
+.link, .link-botton{
+    display: flex;
+    flex-direction: row;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 40px;
+    
+
+}
+
+.navregistro{
+    background-color: rgb(244, 237, 229);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

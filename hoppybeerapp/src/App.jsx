@@ -1,15 +1,15 @@
-import React from 'react';
-// import {Inventario} from './Components/Inventario';
-import {Navbar} from './Components/Navbar';
-
+import React from "react";
+import { NavbarRoutesPrincipal } from "./Components/Navbar/NavbarRoutesPrincipal";
 
 export const App = () => {
   return (
     <>
-    <header>
-    
-    <Navbar/>
-    </header>
+    <NavbarRoutesPrincipal/>
     </>
-  )
-}
+    
+       
+     
+    
+    
+  );
+};
