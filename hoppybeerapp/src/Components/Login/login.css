@@ -1,0 +1,13 @@
+
+.imglogin{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border: 1px solid rgba(126, 175, 115, 0.247);
+    border-radius: 100ch;
+
+}
+.imglogin>img{
+    height: 150px;
+    margin-top: 20px;
+}

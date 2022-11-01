@@ -3,18 +3,9 @@ import React from "react";
 export const AgregarInventaro = () => {
   return (
     <>
-      <button
-        type="button"
-        className="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#staticBackdrop"
-      >
-        Agregar Inventario
-      </button>
-
-      <div
-        className="modal fade"
-        id="staticBackdrop"
+     <div
+        class="modal fade formlogin"
+        id="agregarproducto"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
         tabindex="-1"

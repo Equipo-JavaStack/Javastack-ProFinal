@@ -1,18 +1,36 @@
-.link, .link-botton{
+.link, .link-car-compr{
     display: flex;
     flex-direction: row;
-    color: aliceblue;
+    /* display: inline-block; */
+    color: rgb(228, 237, 244);
     text-decoration: none;
+    align-items: center;
     font-size: 20px;
     margin-left: 40px;
-    
+}
 
+.bi-house-door{
+    margin-right: 10px;
+}
+
+.log-in{
+    text-decoration: none;
+    color: rgb(103, 105, 107);
+    margin-left: 5px;
+    border: 0px;
+    background-color: transparent;
 }
 
 .navregistro{
-    background-color: rgb(244, 237, 229);
+    background-color: rgb(118, 216, 162);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 
+}
+
+
+.logo{
+    height: 80px;
 }

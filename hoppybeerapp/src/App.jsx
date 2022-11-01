@@ -5,11 +5,6 @@ export const App = () => {
   return (
     <>
     <NavbarRoutesPrincipal/>
-    </>
-    
-       
-     
-    
-    
+    </>   
   );
 };

@@ -7,7 +7,7 @@ import { LinkNav } from './LinkNav';
 import { Historia } from '../PageNav/Historia';
 import { QuienesSomos } from '../PageNav/QuienesSomos';
 import { Contacto } from '../PageNav/Contacto';
-import { Inventario } from '../Inventario'
+
 
 export const NavbarRoutesPrincipal = () => {
   return (
@@ -20,8 +20,12 @@ export const NavbarRoutesPrincipal = () => {
       <Route path="/QuienesSomos" element={ <QuienesSomos/> } />
       <Route path="/Contactame" element={ <Contacto/> } />
       <Route path="*" element={ <Error404/> } />
-      <Route path='/Inventario' element={<Inventario/>} ></Route>
    </Routes>  
    </BrowserRouter>
+
+
+
+
+
    )
 }
