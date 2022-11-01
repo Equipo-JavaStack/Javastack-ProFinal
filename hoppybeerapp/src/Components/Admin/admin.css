@@ -1,0 +1,11 @@
+.modal-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.logohb {
+  height: 90px; 
+}
+
