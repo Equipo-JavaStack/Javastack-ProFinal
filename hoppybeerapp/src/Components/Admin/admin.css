@@ -9,3 +9,51 @@
   height: 90px; 
 }
 
+.agrega-inv{
+  width: 1500px;
+}
+
+.target-cerveza{
+  width: 260px;
+  height: 390px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 1px 1px 10px 5px rgb(171, 184, 177);
+  border-radius: 15px;
+  font-weight: bold;
+  text-align: center;
+  font-size: 25px;
+  margin: 15px;
+}
+
+.imgcerveza{
+  width: 245px;
+  border-radius: 15px;
+}
+
+/* -----BOTONES PEDIDOS PARA CARRITO------ */
+.botones-pedido{
+  border: 1px solid rgba(182, 201, 190, 0.322);
+  display: flex;
+  justify-content: center;
+  margin: 15px;
+  
+  
+}
+
+.inputsumaresta{
+  width: 40px;
+  height: 50px;
+  text-align: center;
+  border: 1px solid rgba(140, 153, 143, 0.459);
+  margin: 0px 10px 0px;
+  
+
+}
+
+.suma, .resta{
+  border: none;
+  width: 60px;
+  background-color: rgb(192, 230, 191);
+  box-shadow: 1px 1px 15px 1px rgba(66, 78, 100, 0.616);
+  border-radius: 10px;
+}

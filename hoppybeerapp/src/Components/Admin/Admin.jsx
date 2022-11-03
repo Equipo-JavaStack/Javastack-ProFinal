@@ -1,20 +1,16 @@
 import React from "react";
 import { Inventario } from "./Inventario";
-import { AgregarInventaro } from "./AgregarInventaro";
-import logohb from '../../Resource/hoppybeer.png';
-import '../Admin/admin.css';
+import logohb from "../../Resource/hoppybeer.png";
+import { AgregarInventario } from "./AgregarInventario";
+import "../Admin/admin.css";
+
+import "../Admin/admin.css";
 
 export const Admin = () => {
   return (
     <>
-      {/* <!-- Button trigger modal --> */}
-      {/* <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-  Launch static backdrop modal
-</button> */}
-
-      {/* <!-- Moda --> */}
       <div
-        class="modal dialog modal-xl"
+        class="modal modal-xl modal-fullscreen"
         id="modaladmin"
         data-bs-backdrop="static"
         data-bs-keyboard="false"
@@ -22,13 +18,13 @@ export const Admin = () => {
         aria-labelledby="staticBackdropLabel"
         aria-hidden="true"
       >
-        <div class="modal-dialog">
+        <div class="modal-dialog content-admin">
           <div class="modal-content">
             <div class="modal-header">
-              <img className="logohb" src={logohb} alt="logo" />
-              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+              <img className="logohb" src={logohb} alt="" />
+              <h5 class="modal-title fs-3" id="staticBackdropLabel">
                 Administrador del sistema
-              </h1>
+              </h5>
               <button
                 type="button"
                 class="btn-close"
@@ -36,9 +32,23 @@ export const Admin = () => {
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">
-            <Inventario/>
-                 
+            <div className="comandosnav">
+              <hr />
+              <div className="agre-inv ">
+                <div className="row">
+                  <div class="modal-body col-sm-9">
+                    <div className="row">
+
+                    <div className="contenidoamin col-md-8">
+                      <Inventario />
+                    </div>
+                    <div className="agrega-inv col-md-4 ms-auto">
+                      <AgregarInventario />
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
             <div class="modal-footer">
               <button
@@ -48,18 +58,13 @@ export const Admin = () => {
               >
                 Close
               </button>
-
-              <button 
-              type="button" 
-              class="btn btn-primary"
-                data-bs-dismiss="modal">
+              <button type="button" class="btn btn-primary">
                 Aceptar
               </button>
             </div>
           </div>
         </div>
       </div>
-      <AgregarInventaro/>
     </>
   );
 };

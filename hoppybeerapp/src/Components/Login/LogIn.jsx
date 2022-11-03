@@ -1,5 +1,6 @@
 import React from "react";
 import imglogin from '../../Resource/login.png';
+// import { Admin } from "../Admin/Admin";
 import '../Login/login.css'
 
 export const LogIn = () => {
@@ -71,13 +72,22 @@ export const LogIn = () => {
                 class="btn btn-primary"
                 data-bs-toggle="modal"
                 data-bs-target="#modaladmin"
-              >
+                >
                 Ingresar
+                {/* <button
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#staticBackdrop"
+>
+  Launch static backdrop modal
+</button> */}
               </button>
             </div>
           </div>
         </div>
       </div>
+      
     </>
   );
 };
