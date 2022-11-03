@@ -9,6 +9,7 @@ import { QuienesSomos } from '../PageNav/QuienesSomos';
 import { Contacto } from '../PageNav/Contacto';
 
 
+
 export const NavbarRoutesPrincipal = () => {
   return (
    <BrowserRouter>
@@ -20,6 +21,7 @@ export const NavbarRoutesPrincipal = () => {
       <Route path="/QuienesSomos" element={ <QuienesSomos/> } />
       <Route path="/Contactame" element={ <Contacto/> } />
       <Route path="*" element={ <Error404/> } />
+     
    </Routes>  
    </BrowserRouter>
 

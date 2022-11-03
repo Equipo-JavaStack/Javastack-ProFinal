@@ -1,7 +1,14 @@
 .divpage{
     display: flex;
     justify-content: center;
-    background-color: blueviolet;
+    background-color: rgb(192, 216, 203);
     height:  100%;
+    padding: 20px;
+    
+}
+
+.home-producto{
+   
+    display: flex;
     
 }

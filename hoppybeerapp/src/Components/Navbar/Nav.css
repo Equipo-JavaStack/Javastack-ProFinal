@@ -22,7 +22,7 @@
 }
 
 .navregistro{
-    background-color: rgb(118, 216, 162);
+    background-color: rgb(208, 234, 212);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -33,4 +33,13 @@
 
 .logo{
     height: 80px;
+}
+
+.input-buscar{
+    width: 600px;
+    height: 50px;
+    margin-right: 10px;
+}
+.btnbuscar{
+    width: 100px;
 }

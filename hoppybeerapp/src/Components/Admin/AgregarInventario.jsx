@@ -1,16 +1,16 @@
 import React from "react";
 
-export const AgregarInventaro = () => {
+export const AgregarInventario = () => {
   return (
     <>
      <div
-        class="modal fade formlogin"
-        id="agregarproducto"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="staticBackdropLabel"
-        aria-hidden="true"
+        // class="modal fade formlogin"
+        // id="agregarproducto"
+        // data-bs-backdrop="static"
+        // data-bs-keyboard="false"
+        // tabindex="-1"
+        // aria-labelledby="staticBackdropLabel"
+        // aria-hidden="true"
       >
         <div className="modal-dialog">
           <div className="modal-content">
@@ -85,8 +85,8 @@ export const AgregarInventaro = () => {
                 Cancelar
               </button>
 
-              <button type="button" className="btn btn-primary">
-                Aceptar
+              <button type="button" className="btn btn-success">
+                Agregar producto
               </button>
             </div>
           </div>

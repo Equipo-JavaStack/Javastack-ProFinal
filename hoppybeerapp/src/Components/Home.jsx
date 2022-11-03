@@ -1,12 +1,18 @@
 import React from "react";
+import { Productos } from "./Admin/Productos";
+import "./PageNav/page.css";
 
 export const Home = () => {
   return (
 
   <>
-  <div className="h-100 container border mt-2 ">
+  <div className="container border mt-2 home-producto">
 
-    <h1>Home</h1>
+    <Productos/>
+    <Productos/>
+    <Productos/>
+    <Productos/>
+    
 
   </div>
   </>
