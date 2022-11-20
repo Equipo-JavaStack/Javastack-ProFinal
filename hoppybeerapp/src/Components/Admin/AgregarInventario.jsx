@@ -132,7 +132,7 @@ export const AgregarInventario = () => {
                 Cancelar
               </button>
 
-              <button onClick={AgregarProducto}>
+              <button className="btn btn-primary" onClick={AgregarProducto}>
                 Agregar producto
               </button>
             </div>

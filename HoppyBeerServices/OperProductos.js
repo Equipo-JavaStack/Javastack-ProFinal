@@ -18,11 +18,17 @@ app.use(express.json());
 
 //conctar bd
 mongoose.connect(BD.mongoURL, { useNewUrlParser: true })
+/*mongoose.connect('mongodb+srv://JavaStack:javastack@javastack-cluster.q3mytge.mongodb.net/test',{
+    useNewUrlParser: true,
+    useUnifieldTopology: true,
+    useFindAndModify: false,
+    useCreateIndex: true
+    }).then(()=>{
+*/
+        app.listen(port, () => {
+            console.log("Ejecuto la app en el puerto " + port)
+    })
 
-
-app.listen(port, () => {
-    console.log("Ejecuto la app en el puerto " + port)
-})
 
 //get AdminLista de todos los productos
 
