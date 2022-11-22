@@ -5,7 +5,8 @@ const productosScheme = mongoose.Schema({
     nombreProducto: String,
     cantidad:  String,
     fechaVenta: String,
-    cliente: String
+    cliente: String,
+    estado: Boolean
 })
 
 module.exports = mongoose.model('ventas',productosScheme)

@@ -1,11 +1,11 @@
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const express = require("express");
-
-const BD = require("./Conexion/conexion")
+const BD = require("./Conexion/conexion");
 const esquemaProductos = require("./Modelo/productos.js");
 const { updateOne } = require("./Modelo/productos.js");
-const productos = require("./Modelo/productos")
+const productos = require("./Modelo/productos");
+const ventas = require("./Modelo/ventas.js");
 
 const CORS= require("Cors")// incluimos esta linea para controlar el acceso a puertos
 
@@ -18,15 +18,21 @@ app.use(express.json());
 
 //conctar bd
 mongoose.connect(BD.mongoURL, { useNewUrlParser: true })
+/*mongoose.connect('mongodb+srv://JavaStack:javastack@javastack-cluster.q3mytge.mongodb.net/test',{
+    useNewUrlParser: true,
+    useUnifieldTopology: true,
+    useFindAndModify: false,
+    useCreateIndex: true
+    }).then(()=>{
+*/
+        app.listen(port, () => {
+            console.log("Ejecuto la app en el puerto " + port)
+    })
 
-
-app.listen(port, () => {
-    console.log("Ejecuto la app en el puerto " + port)
-})
 
 //get AdminLista de todos los productos
 
-app.get('productos', (req, res) => {
+app.get('/productos', (req, res) => {
     esquemaProductos.find(function (err, esquemaProductos) {
         if (err) return console.err(err)
         
@@ -69,7 +75,14 @@ app.post('/modificarAll',( req , res ) =>{
     estructProductos.update({id:""},{ nombreProducto, descripcion, costo,venta, stock,imagen}, function(err){
         if (err) return console.error(err);
        }) 
-    res.send("se actualizo  todos los datos el dato ")
+    res.send("se actualizo  todos los datos")
+})
+
+//post para crear ventas
+app.post('/solicitudCompra',(req, res) =>{
+    nuevaCompra = new ventas(req.body)
+    
+    console.log(first)
 })
 
 //post para crear productos

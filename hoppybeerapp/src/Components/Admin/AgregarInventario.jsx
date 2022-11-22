@@ -132,7 +132,7 @@ export const AgregarInventario = () => {
                 Cancelar
               </button>
 
-              <button onClick={AgregarProducto}>
+              <button className="btn btn-primary" onClick={AgregarProducto}>
                 Agregar producto
               </button>
             </div>
@@ -159,5 +159,6 @@ export const AgregarInventario = () => {
     //Comprobacion  de los datos
     
     alert("Datos almacenados correctamente")
+    
 }
 };
