@@ -31,15 +31,7 @@
 }
 
 /* -----BOTONES PEDIDOS PARA CARRITO------ */
-.botones-comprar{
-  /* border: 1px solid rgb(72, 129, 95);
-  display: flex;
-  justify-content: center;
-  margin: 15px;
-   */
-  
-  
-}
+
 
 .inputsumaresta{
   width: 40px;
@@ -47,9 +39,4 @@
   text-align: center;
   border: 1px solid rgba(140, 153, 143, 0.459);
   margin: 0px 10px 0px;
-  
-
 }
-
-
-

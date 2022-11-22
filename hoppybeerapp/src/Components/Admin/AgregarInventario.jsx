@@ -159,5 +159,6 @@ export const AgregarInventario = () => {
     //Comprobacion  de los datos
     
     alert("Datos almacenados correctamente")
+    
 }
 };
