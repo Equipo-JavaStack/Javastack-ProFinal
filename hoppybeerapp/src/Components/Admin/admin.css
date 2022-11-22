@@ -31,14 +31,7 @@
 }
 
 /* -----BOTONES PEDIDOS PARA CARRITO------ */
-.botones-pedido{
-  border: 1px solid rgba(182, 201, 190, 0.322);
-  display: flex;
-  justify-content: center;
-  margin: 15px;
-  
-  
-}
+
 
 .inputsumaresta{
   width: 40px;
@@ -46,14 +39,4 @@
   text-align: center;
   border: 1px solid rgba(140, 153, 143, 0.459);
   margin: 0px 10px 0px;
-  
-
-}
-
-.suma, .resta{
-  border: none;
-  width: 60px;
-  background-color: rgb(192, 230, 191);
-  box-shadow: 1px 1px 15px 1px rgba(66, 78, 100, 0.616);
-  border-radius: 10px;
 }

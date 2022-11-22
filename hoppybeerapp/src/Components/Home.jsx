@@ -9,10 +9,7 @@ export const Home = () => {
   <div className="container border mt-2 home-producto">
 
     <Productos/>
-    <Productos/>
-    <Productos/>
-    <Productos/>
-    
+   
 
   </div>
   </>
